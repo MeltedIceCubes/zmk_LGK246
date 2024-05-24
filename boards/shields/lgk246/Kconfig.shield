@@ -1,5 +1,0 @@
-config SHIELD_LGK246_LEFT
-    def_bool $(shields_list_contains,lgk246_left)
-
-config SHIELD_LGK246_RIGHT
-    def_bool $(shields_list_contains,lgk246_right)
