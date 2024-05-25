@@ -1,0 +1,11 @@
+file_format: "1"
+id: lgk246
+name: LGK246
+type: shield
+url: https://github.com/MeltedIceCubes/zmk_LGK246
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - lgk246_left
+  - lgk246_right

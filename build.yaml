@@ -1,6 +1,6 @@
 include:
   - board: seeeduino_xiao_ble
-    shield: totem_left
+    shield: lgk246_left
   - board: seeeduino_xiao_ble
-    shield: totem_right
+    shield: lgk246_right
 # there is no settingsreset (needed) for the XIAO
