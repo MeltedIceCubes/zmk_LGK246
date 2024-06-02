@@ -1,7 +1,7 @@
 # Copyright (c) 2022 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_LGK246_LEFT
+if SHIELD_LGK246_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "LGK246"
