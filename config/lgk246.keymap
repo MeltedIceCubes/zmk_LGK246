@@ -60,7 +60,7 @@ label= "BASE"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-    &kp ESCAPE  &kp Q       &kp W       &kp E       &kp R       &kp T           &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE
+    &sys_reset  &kp Q       &kp W       &kp E       &kp R       &kp T           &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE
     &kp ESCAPE  &kp Q       &kp W       &kp E       &kp R       &kp T           &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE
     &kp ESCAPE  &kp Q       &kp W       &kp E       &kp R       &kp T           &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE
     &kp ESCAPE  &kp Q       &kp W       &kp E       &kp R       &kp T           &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE
