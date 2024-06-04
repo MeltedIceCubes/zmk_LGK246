@@ -64,7 +64,7 @@ label= "BASE"                              ;
     &kp ESCAPE  &kp Q       &kp W       &kp E       &kp R       &kp T           &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE
     &kp ESCAPE  &kp Q       &kp W       &kp E       &kp R       &kp T           &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE
     &kp ESCAPE  &kp Q       &kp W       &kp E       &kp R       &kp T           &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE   &kp SPACE
-    &kp ESCAPE  &kp Q       &sys_reset                                                                              &sys_reset   &kp SPACE   &kp SPACE
+    &kp ESCAPE  &bt BT_CLR_ALL &sys_reset                                                                              &sys_reset   &kp SPACE   &kp SPACE
 
                         >;
                 };
