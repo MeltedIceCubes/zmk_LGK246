@@ -54,7 +54,7 @@ label= "BASE"                              ;
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 // ┃   SHIFT   ┃     Z     ┃     X     ┃     C     ┃     V     ┃     B     ┃   ┃     N     ┃     M     ┃           ┃           ┃           ┃           ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃    CTRL   ┃    WIN    ┃    ALT    ┃    NUMS   ┃    SYMS   ┃   SPACE   ┃   ┃           ┃           ┃           ┃           ┃           ┃           ┃   
+// ┃    CTRL   ┃    WIN    ┃    ALT    ┃    NUMS   ┃    SYMS   ┃   SPACE   ┃   ┃    NUMS   ┃    SYMS   ┃    FUNC   ┃           ┃           ┃           ┃   
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫ 
 // ┃  BUTTON1  ┃  BUTTON2  ┃  BUTTON3  ┃                                                                           ┃  BUTTON1  ┃  BUTTON2  ┃  BUTTON3  ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛                                                                           ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -65,7 +65,7 @@ label= "BASE"                              ;
     &kp ESCAPE  &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P       &kp BSPC 
     &kp TAB     &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L       &none       &kp ENTER
     &kp LSHIFT  &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &none       &none       &none       &none 
-    &kp LCTRL   &kp LWIN    &kp LALT    &none       &none       &kp SPACE       &none       &none       &none       &none       &none       &none
+    &kp LCTRL   &kp LWIN    &kp LALT    &mo NUMS    &mo SYMS    &kp SPACE       &mo NUMS    &mo SYMS    &mo FUNC    &none       &none       &none
     &bt BT_NXT  &bt BT_CLR  &sys_reset                                                                              &sys_reset  &none       &none    
 
                         >;
@@ -76,13 +76,13 @@ label= "BASE"                              ;
 label= "NUMS"                              ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 // ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-// ┃   TRANS   ┃     1     ┃     2     ┃     3     ┃     4     ┃     5     ┃   ┃     6     ┃     7     ┃     8     ┃     9     ┃     0     ┃   TRANS   ┃
+// ┃   TRANS   ┃     1     ┃     2     ┃     3     ┃     4     ┃     5     ┃   ┃     6     ┃     7     ┃     8     ┃     9     ┃     0     ┃    BACK   ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃   TRANS   ┃     6     ┃     7     ┃     8     ┃     9     ┃     0     ┃   ┃           ┃           ┃           ┃           ┃           ┃   TRANS   ┃
+// ┃   TRANS   ┃     6     ┃     7     ┃     8     ┃     9     ┃     0     ┃   ┃           ┃           ┃           ┃           ┃           ┃   ENTER   ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃   TRANS   ┃           ┃           ┃           ┃           ┃   ENTER   ┃   ┃           ┃           ┃           ┃    HOME   ┃     UP    ┃    END    ┃
+// ┃   TRANS   ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃    HOME   ┃     UP    ┃    END    ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃   TRANS   ┃   TRANS   ┃   TRANS   ┃           ┃           ┃   TRANS   ┃   ┃           ┃           ┃           ┃   RIGHT   ┃    DOWN   ┃    LEFT   ┃   
+// ┃   TRANS   ┃           ┃           ┃    NUMS   ┃    SYMS   ┃   SPACE   ┃   ┃    NUMS   ┃    SYMS   ┃    FUNC   ┃   RIGHT   ┃    DOWN   ┃    LEFT   ┃   
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫ 
 // ┃  BUTTON1  ┃  BUTTON2  ┃  BUTTON3  ┃                                                                           ┃  BUTTON1  ┃  BUTTON2  ┃  BUTTON3  ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛                                                                           ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -90,10 +90,10 @@ label= "NUMS"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-    &trans      &kp N1      &kp N2      &kp N3      &kp N4      &kp N5          &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp BSPC 
+    &kp GRAVE   &kp N1      &kp N2      &kp N3      &kp N4      &kp N5          &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp BSPC 
     &trans      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0          &none       &none       &none       &none       &none       &kp ENTER
-    &trans      &none       &none       &none       &none       &none           &none       &none       &none       &kp HOME    &kp UP      &kp END
-    &trans      &trans      &trans      &none       &none       &trans          &none       &none       &none       &kp LEFT    &kp DOWN    &kp RIGHT
+    &trans      &none       &none       &none       &none       &kp ENTER       &none       &none       &none       &kp HOME    &kp UP      &kp END
+    &trans      &trans      &trans      &mo NUMS    &mo SYMS    &kp SPACE       &mo NUMS    &mo SYMS    &mo FUNC    &kp LEFT    &kp DOWN    &kp RIGHT
     &trans      &trans      &trans                                                                                  &trans      &trans      &trans
 
                         >;
@@ -104,13 +104,13 @@ label= "NUMS"                              ;
 label= "SYMS"                              ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 // ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-// ┃   GRAVE   ┃    HOME   ┃     UP    ┃    END    ┃           ┃           ┃   ┃           ┃           ┃           ┃     [     ┃     ]     ┃   TRANS   ┃
+// ┃   GRAVE   ┃    HOME   ┃     UP    ┃    END    ┃           ┃           ┃   ┃           ┃           ┃           ┃     [     ┃     ]     ┃    BACK   ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃   TRANS   ┃   RIGHT   ┃    DOWN   ┃    LEFT   ┃           ┃           ┃   ┃           ┃           ┃           ┃     -     ┃     =     ┃   TRANS   ┃
+// ┃   TRANS   ┃   RIGHT   ┃    DOWN   ┃    LEFT   ┃           ┃           ┃   ┃           ┃           ┃           ┃     -     ┃     =     ┃   ENTER   ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 // ┃   TRANS   ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃           ┃     ;     ┃     '     ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃   TRANS   ┃   TRANS   ┃   TRANS   ┃           ┃           ┃   TRANS   ┃   ┃           ┃           ┃           ┃     ,     ┃     .     ┃     /     ┃   
+// ┃   TRANS   ┃   TRANS   ┃   TRANS   ┃    NUMS   ┃    SYMS   ┃   SPACE   ┃   ┃    NUMS   ┃    SYMS   ┃    FUNC   ┃     ,     ┃     .     ┃     /     ┃   
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫ 
 // ┃  BUTTON1  ┃  BUTTON2  ┃  BUTTON3  ┃                                                                           ┃  BUTTON1  ┃  BUTTON2  ┃  BUTTON3  ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛                                                                           ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -118,10 +118,10 @@ label= "SYMS"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-    &kp GRAVE   &kp HOME    &kp UP      &kp END     &none       &none           &none       &none       &none       &none       &none       &kp BSPC 
-    &trans      &kp LEFT    &kp DOWN    &kp RIGHT   &kp N9      &kp N0          &none       &none       &none       &none       &none       &kp ENTER
-    &trans      &none       &none       &none       &none       &none           &none       &none       &none       &none       &none       &none
-    &trans      &trans      &trans      &none       &none       &trans          &none       &none       &none       &none       &none       &none
+    &kp GRAVE   &kp HOME    &kp UP      &kp END     &none       &none           &none       &none       &none       &kp LBKT    &kp RBKT    &kp BSPC 
+    &trans      &kp LEFT    &kp DOWN    &kp RIGHT   &kp N9      &kp N0          &none       &none       &none       &kp MINUS   &kp EQUAL   &kp ENTER
+    &trans      &none       &none       &none       &none       &none           &none       &none       &none       &none       &kp SEMI    &kp SQT
+    &trans      &trans      &trans      &mo NUMS    &mo SYMS    &kp SPACE       &mo NUMS    &mo SYMS    &mo FUNC    &none       &none       &kp SLASH
     &trans      &trans      &trans                                                                                  &trans      &trans      &trans
 
                         >;
@@ -132,13 +132,13 @@ label= "SYMS"                              ;
 label= "FUNC"                              ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 // ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-// ┃   GRAVE   ┃     F1    ┃     F2    ┃     F3    ┃     F4    ┃     F5    ┃   ┃     F6    ┃     F7    ┃     F8    ┃     F9    ┃    F10    ┃   TRANS   ┃
+// ┃   GRAVE   ┃     F1    ┃     F2    ┃     F3    ┃     F4    ┃     F5    ┃   ┃     F6    ┃     F7    ┃     F8    ┃     F9    ┃    F10    ┃    BACK   ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃   TRANS   ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃    F11    ┃    F12    ┃   TRANS   ┃
+// ┃   TRANS   ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃    F11    ┃    F12    ┃   ENTER   ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 // ┃   TRANS   ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃           ┃           ┃           ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃   TRANS   ┃   TRANS   ┃   TRANS   ┃           ┃           ┃   TRANS   ┃   ┃           ┃           ┃           ┃           ┃           ┃           ┃   
+// ┃   TRANS   ┃   TRANS   ┃   TRANS   ┃    NUMS   ┃    SYMS   ┃   SPACE   ┃   ┃    NUMS   ┃    SYMS   ┃    FUNC   ┃           ┃           ┃           ┃   
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫ 
 // ┃  BUTTON1  ┃  BUTTON2  ┃  BUTTON3  ┃                                                                           ┃  BUTTON1  ┃  BUTTON2  ┃  BUTTON3  ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛                                                                           ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -149,7 +149,7 @@ label= "FUNC"                              ;
     &kp GRAVE   &kp F1      &kp F2      &kp F3      &kp F4      &kp F5          &kp F6      &kp F7      &kp F8      &kp F9      &kpF10      &kp BSPC 
     &trans      &none       &none       &none       &none       &none           &none       &none       &none       &kp F11     &kp F12     &kp ENTER
     &trans      &none       &none       &none       &none       &none           &none       &none       &none       &none       &none       &none
-    &trans      &trans      &trans      &none       &none       &trans          &none       &none       &none       &none       &none       &none
+    &trans      &trans      &trans      &mo NUMS    &mo SYMS    &kp SPACE       &mo NUMS    &mo SYMS    &mo FUNC    &none       &none       &none
     &trans      &trans      &trans                                                                                  &trans      &trans      &trans
 
                         >;
