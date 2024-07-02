@@ -145,11 +145,11 @@ label= "FUNC"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-    &kp GRAVE   &kp F1      &kp F2      &kp F3      &kp F4      &kp F5          &kp BSPC    &kp F10     &kp F9      &kp F8      &kp F7      &kp F6           
-    &trans      &none       &none       &none       &none       &none           &kp ENTER   &kp F12     &kp F11     &none       &none       &none
-    &trans      &none       &none       &none       &none       &none           &none       &none       &none       &none       &none       &none
-    &trans      &trans      &trans      &mo NUMS    &mo SYMS    &kp SPACE       &none       &none       &none       &mo FUNC    &mo NUMS    &mo SYMS
-    &trans      &trans      &trans                                                                                  &trans      &trans      &trans
+    &kp GRAVE   &kp F1      &kp F2      &kp F3      &kp F4      &kp F5          &kp BSPC    &kp F10      &kp F9      &kp F8      &kp F7      &kp F6           
+    &trans      &none       &none       &none       &none       &none           &kp ENTER   &kp F12      &kp F11     &none       &none       &none
+    &trans      &none       &none       &none       &none       &none           &none       &kp K_VOL_UP &none       &none       &none       &none
+    &trans      &trans      &trans      &mo NUMS    &mo SYMS    &kp SPACE       &kp K_NEXT  &kp K_VOL_DN &kp K_PREV  &mo FUNC    &mo NUMS    &mo SYMS
+    &trans      &trans      &trans                                                                                   &trans      &trans      &trans
 
                         >;
                 };
